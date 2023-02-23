@@ -1,6 +1,6 @@
 {
   "name": "password-generator-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "'password-generator-service' is simple one time random and unique password generator and can be used as password generator.",
   "main": "index.js",
   "scripts": {
