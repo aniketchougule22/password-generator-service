@@ -21,6 +21,7 @@ let services = require("password-generator-service");
 
 let password = services.generatePassword(8,  false);  // any digit 4, 6, 8,...
 
+console.log('password', password);
 
 Output: password an2ik2et
 
@@ -34,6 +35,7 @@ let services = require("password-generator-service");
 
 let password = services.generatePassword();
 
+console.log('password', password);
 
 Output: password a0ni6c
 
