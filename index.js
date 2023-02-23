@@ -16,7 +16,7 @@ const generatePassword = (length, options) => {
     const specialChars = '#!&@'
 
     options = { upperCaseAlphabets: options, specialChars: options };
-    length = length || 10
+    length = length || 6
     const generateOptions = options || {}
 
     generateOptions.digits = Object.prototype.hasOwnProperty.call(generateOptions, 'digits') ? options.digits : true
